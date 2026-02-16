@@ -8,27 +8,27 @@ export default function FloatingCards() {
 
   const cards = [
     {
-      icon: '🚀',
-      title: 'Lightning Fast',
-      description: 'Deploy in minutes, not hours',
+      icon: '⚡',
+      title: 'Fast Frontend Performance',
+      description: 'Optimized React components with Next.js',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
       icon: '🎯',
-      title: 'Laser Focused',
-      description: 'Capture qualified leads only',
+      title: 'Conversion-Focused Layout',
+      description: 'UI/UX designed for lead generation',
       gradient: 'from-purple-500 to-pink-500',
     },
     {
-      icon: '💎',
-      title: 'Premium Quality',
-      description: 'Enterprise-grade solutions',
+      icon: '🏗️',
+      title: 'Modern Component Architecture',
+      description: 'Reusable, scalable component structure',
       gradient: 'from-orange-500 to-red-500',
     },
     {
-      icon: '🔒',
-      title: 'Bank-Level Security',
-      description: 'Your data is always safe',
+      icon: '🎨',
+      title: 'Scalable Design System',
+      description: 'Consistent styling with Tailwind CSS',
       gradient: 'from-green-500 to-emerald-500',
     },
   ];
@@ -56,10 +56,10 @@ export default function FloatingCards() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-            Why We're Different
+            Why This Demo Stands Out
           </h2>
           <p className="text-gray-400 text-lg">
-            Experience the future of AI automation
+            Technical highlights of this portfolio project
           </p>
         </div>
 

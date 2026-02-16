@@ -1,5 +1,6 @@
 'use client';
 
+import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import Benefits from '@/components/Benefits';
@@ -17,68 +18,87 @@ import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 import Chatbot from '@/components/Chatbot';
 import ParticlesBackground from '@/components/ParticlesBackground';
-import CursorTrail from '@/components/CursorTrail';
+import CustomCursor from '@/components/CustomCursor';
 import FloatingActionButtons from '@/components/FloatingActionButtons';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
-      {/* Animated Particles Background */}
-      <ParticlesBackground />
+    <>
+      {/* Professional Custom Cursor */}
+      <CustomCursor />
       
-      {/* Interactive Cursor Trail */}
-      <CursorTrail />
+      {/* Navbar */}
+      <Navbar />
       
-      {/* Hero Section */}
-      <Hero />
-      
-      {/* Stats Counter */}
-      <Stats />
-      
-      {/* 3D Floating Cards */}
-      <FloatingCards />
-      
-      {/* Services Section */}
-      <Services />
-      
-      {/* Scroll Animations */}
-      <ScrollAnimations />
-      
-      {/* Benefits Section */}
-      <Benefits />
-      
-      {/* Interactive Demo */}
-      <InteractiveDemo />
-      
-      {/* Portfolio/Case Studies */}
-      <Portfolio />
-      
-      {/* Testimonials */}
-      <Testimonials />
-      
-      {/* Trust Badges */}
-      <TrustBadges />
-      
-      {/* Pricing Plans */}
-      <Pricing />
-      
-      {/* FAQ Section */}
-      <FAQ />
-      
-      {/* Newsletter Signup */}
-      <Newsletter />
-      
-      {/* Contact Form Section */}
-      <ContactForm />
-      
-      {/* Footer */}
-      <Footer />
-      
-      {/* Floating Action Buttons */}
-      <FloatingActionButtons />
-      
-      {/* Floating Chatbot */}
-      <Chatbot />
-    </main>
+      <main className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
+        {/* Animated Particles Background */}
+        <ParticlesBackground />
+        
+        {/* Hero Section */}
+        <div id="home">
+          <Hero />
+        </div>
+        
+        {/* Stats Counter */}
+        <Stats />
+        
+        {/* 3D Floating Cards */}
+        <FloatingCards />
+        
+        {/* Services Section */}
+        <Services />
+        
+        {/* Scroll Animations */}
+        <div id="features">
+          <ScrollAnimations />
+        </div>
+        
+        {/* Benefits Section */}
+        <Benefits />
+        
+        {/* Interactive Demo */}
+        <div id="demo">
+          <InteractiveDemo />
+        </div>
+        
+        {/* Portfolio/Case Studies */}
+        <div id="use-cases">
+          <Portfolio />
+        </div>
+        
+        {/* Testimonials */}
+        <Testimonials />
+        
+        {/* Trust Badges */}
+        <TrustBadges />
+        
+        {/* Pricing Plans */}
+        <div id="pricing">
+          <Pricing />
+        </div>
+        
+        {/* FAQ Section */}
+        <div id="faq">
+          <FAQ />
+        </div>
+        
+        {/* Newsletter Signup */}
+        <Newsletter />
+        
+        {/* Contact Form Section */}
+        <div id="contact">
+          <ContactForm />
+        </div>
+        
+        {/* Footer */}
+        <Footer />
+        
+        {/* Floating Action Buttons */}
+        <FloatingActionButtons />
+        
+        {/* Floating Chatbot */}
+        <Chatbot />
+      </main>
+    </>
   );
 }

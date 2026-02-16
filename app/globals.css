@@ -13,6 +13,12 @@
 body {
   background: var(--background);
   color: var(--foreground);
+  cursor: none; /* Hide default cursor */
+}
+
+/* Hide default cursor on all elements */
+* {
+  cursor: none !important;
 }
 
 /* Smooth scroll behavior */
@@ -49,4 +55,22 @@ html {
 
 .animate-slide-in-right {
   animation: slideInRight 0.5s ease-out forwards;
+}
+
+/* Custom Cursor Styles */
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+  
+  a, button, [role="button"], input[type="submit"], input[type="button"] {
+    cursor: none !important;
+  }
+}
+
+/* Mobile - show default cursor */
+@media (pointer: coarse) {
+  body, * {
+    cursor: auto !important;
+  }
 }

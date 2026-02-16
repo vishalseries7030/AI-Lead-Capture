@@ -68,10 +68,13 @@ export default function Pricing() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Simple, Transparent Pricing
+            Sample Pricing Structure
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Choose the perfect plan for your business. All plans include free setup and training.
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-4">
+            Pricing shown is sample structure for demonstration purposes
+          </p>
+          <p className="text-gray-500 text-sm italic">
+            Custom pricing depends on actual implementation scope and requirements
           </p>
         </div>
 
@@ -126,7 +129,7 @@ export default function Pricing() {
                     : 'bg-gray-700 text-white hover:bg-gray-600'
                 }`}
               >
-                Get Started
+                Discuss Project
               </button>
             </div>
           ))}
@@ -135,10 +138,10 @@ export default function Pricing() {
         {/* Additional Info */}
         <div className="mt-12 text-center">
           <p className="text-gray-400 mb-4">
-            All plans include free setup, training, and 30-day money-back guarantee
+            All pricing is indicative and subject to project scope discussion
           </p>
           <p className="text-gray-500 text-sm">
-            Need a custom solution? <button onClick={scrollToContact} className="text-blue-400 hover:underline">Contact us</button> for enterprise pricing
+            Need a custom solution? <button onClick={scrollToContact} className="text-blue-400 hover:underline">Contact for consultation</button>
           </p>
         </div>
       </div>

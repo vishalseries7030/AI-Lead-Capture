@@ -4,32 +4,32 @@ export default function Portfolio() {
     {
       title: 'E-commerce AI Assistant',
       category: 'Retail',
-      description: 'Implemented AI chatbot that handles 5,000+ customer queries daily, reducing support costs by 60%',
-      results: ['60% cost reduction', '95% customer satisfaction', '3x faster response time'],
+      description: 'Conceptual demonstration of AI chatbot handling customer queries, product recommendations, and order support.',
+      results: ['Improved response efficiency', 'Automated inquiry handling', 'Enhanced user experience'],
       icon: '🛒',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       title: 'Healthcare Lead Automation',
       category: 'Healthcare',
-      description: 'Automated patient inquiry system that qualifies and routes leads to appropriate departments',
-      results: ['200% more qualified leads', '24/7 availability', '40% faster booking'],
+      description: 'Demo scenario showing automated patient inquiry system with lead qualification and routing capabilities.',
+      results: ['Streamlined lead routing', '24/7 availability simulation', 'Better engagement flow'],
       icon: '🏥',
       color: 'from-green-500 to-emerald-500',
     },
     {
       title: 'Real Estate Chatbot',
       category: 'Real Estate',
-      description: 'Smart property recommendation system with virtual tour scheduling and instant responses',
-      results: ['150% increase in tours', '80% automation rate', '4.8/5 user rating'],
+      description: 'Demonstration of property recommendation system with virtual tour scheduling and instant response features.',
+      results: ['Automated tour scheduling', 'Instant query responses', 'Improved user engagement'],
       icon: '🏠',
       color: 'from-purple-500 to-pink-500',
     },
     {
       title: 'Education Platform',
       category: 'Education',
-      description: 'Student support chatbot handling admissions, course info, and enrollment assistance',
-      results: ['10,000+ students helped', '90% query resolution', '50% staff time saved'],
+      description: 'Conceptual student support chatbot for handling admissions, course information, and enrollment assistance.',
+      results: ['Automated student support', 'Efficient query resolution', 'Streamlined processes'],
       icon: '🎓',
       color: 'from-orange-500 to-red-500',
     },
@@ -41,10 +41,13 @@ export default function Portfolio() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Success Stories
+            Demo Use Case Scenarios
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Real results from businesses we've helped transform with AI
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-2">
+            Conceptual demonstrations for UI/UX presentation purposes
+          </p>
+          <p className="text-gray-500 text-sm italic">
+            These examples showcase potential applications and interface designs
           </p>
         </div>
 
@@ -79,7 +82,7 @@ export default function Portfolio() {
 
                 {/* Results */}
                 <div className="space-y-2">
-                  <div className="text-sm font-semibold text-gray-300 mb-3">Key Results:</div>
+                  <div className="text-sm font-semibold text-gray-300 mb-3">Demonstrated Features:</div>
                   {project.results.map((result, i) => (
                     <div key={i} className="flex items-center gap-2">
                       <div className={`w-2 h-2 rounded-full bg-gradient-to-r ${project.color}`}></div>
@@ -95,13 +98,13 @@ export default function Portfolio() {
         {/* CTA */}
         <div className="mt-12 text-center">
           <p className="text-gray-400 mb-4">
-            Want to see your business here?
+            Interested in discussing real-world implementation?
           </p>
           <button
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300"
           >
-            Start Your Success Story
+            Get In Touch
           </button>
         </div>
       </div>

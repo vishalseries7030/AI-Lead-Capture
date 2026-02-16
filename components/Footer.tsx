@@ -146,9 +146,12 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-gray-500 text-sm">
-          <p>© {currentYear} AI Lead Capture. All rights reserved.</p>
+          <p>© {currentYear} AI Lead Capture Demo. All rights reserved.</p>
           <p className="mt-2">
-            Built with ❤️ by Vishal Payyawar | Powered by Next.js & AI
+            Built with Next.js | AI Chatbot UI Simulation
+          </p>
+          <p className="mt-1 text-xs">
+            Portfolio project by Vishal Payyawar
           </p>
         </div>
       </div>

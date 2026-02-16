@@ -4,19 +4,19 @@ export default function Services() {
     {
       icon: '🤖',
       title: 'AI Chatbot Integration',
-      description: 'Intelligent chatbots that understand context and provide human-like responses to your customers.',
+      description: 'This demo showcases potential AI chatbot integration for automated customer interactions and lead qualification.',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
       icon: '📊',
       title: 'Lead Capture Automation',
-      description: 'Automatically capture, qualify, and route leads to your sales team in real-time.',
+      description: 'Demonstration of automated lead capture workflows, form handling, and data collection processes.',
       gradient: 'from-purple-500 to-pink-500',
     },
     {
       icon: '🌐',
       title: 'Website Development',
-      description: 'Modern, responsive websites built with the latest technologies and best practices.',
+      description: 'Modern, responsive web interfaces built with Next.js, TypeScript, and Tailwind CSS.',
       gradient: 'from-orange-500 to-red-500',
     },
   ];
@@ -27,10 +27,10 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Our Services
+            Demo Capabilities
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Comprehensive AI solutions to transform your business operations
+            This demo showcases potential AI automation services such as:
           </p>
         </div>
 
